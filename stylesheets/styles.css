@@ -165,9 +165,9 @@ small {
    ========================================================================== */
 
 .logo {
-  width: 200px;
+  width: 250px;
   position: relative;
-  top: 45px;
+  top: 40px;
   left: .5em;
 }
 
@@ -309,9 +309,9 @@ h4, h5, h6 {
 h3 {
   font-size: 30px;
   line-height: 24px;
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-weight: 100;
-  color: #b6b6b6;
+  color: #F0C658;
 }
 
 a {
@@ -414,6 +414,8 @@ section #title .credits.right {
   float: right;
 }
 
+
+
 .footer-img{
   width: 100%;
   background-size: auto;
@@ -424,10 +426,6 @@ section #title .credits.right {
 .img-flex-large {
   width: 100%;
   display: block;
-  }
-
-  .banner {
-    margin-top: -7em !important;
   }
 }
 
@@ -458,8 +456,15 @@ section #title .credits.right {
   }
 
   .banner {
-    margin-top: -5em;
+    margin-top: -7em;
   }
+
+    .logo {
+  width: 300px;
+  position: relative;
+  top: 45px;
+  left: 3em;
+}
 }
 @media only screen and (min-width: 480px) {
 
@@ -471,11 +476,6 @@ section #title .credits.right {
     display: block;
   }
 
-  .logo {
-  width: 300px;
-  position: relative;
-  top: 45px;
-  left: 2em;
-}
+
 
 }
