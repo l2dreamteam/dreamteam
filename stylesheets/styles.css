@@ -13,7 +13,6 @@ figure,
 footer,
 header,
 hgroup,
-nav,
 section,
 summary {
   display: block;
@@ -78,10 +77,6 @@ body {
 /* =============================================================================
    Links
    ========================================================================== */
-
-a:focus {
-  outline: thin dotted;
-}
 
 a:hover,
 a:active {
@@ -163,14 +158,8 @@ nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
-  display: block;
-  float: right;
-}
-
-nav li {
-  display: inline-block;
-  text-transform: uppercase;
-  margin: 1em .5em 0 0;
+  padding: 0;
+  margin: 0 auto;
 }
 
 /* =============================================================================
@@ -178,12 +167,10 @@ nav li {
    ========================================================================== */
 
 .logo {
-  width: 150px;
-  float: left;
-  position: absolute;
-  top: 20px;
+  width: 200px;
+  position: relative;
+  top: 45px;
   left: 0;
-  z-index: 100;
 }
 
 /* =============================================================================
@@ -353,6 +340,7 @@ a small {
 
 ul {
   list-style: none;
+  text-align: center;
 }
 
 strong {
@@ -514,7 +502,7 @@ section #title .credits.right {
 }
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 721px) {
   #title .credits {
     display: block;
     width: 100%;
@@ -540,8 +528,8 @@ section #title .credits.right {
     display: block;
   }
 
-    nav li {
-    margin-right: 2em;
+  .banner {
+    margin-top: -4em;
   }
 }
 @media only screen and (min-width: 480px) {
@@ -555,8 +543,6 @@ section #title .credits.right {
 
   nav {
     display: block;
-    float: right;
-    margin-right: 2em;
   }
 
 }
