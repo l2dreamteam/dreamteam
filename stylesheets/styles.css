@@ -414,9 +414,10 @@ section #title .credits.right {
   float: right;
 }
 
-footer {
-  height: 64px;
-  overflow: hidden;
+.footer-img{
+  width: 100%;
+  background-size: auto;
+  margin-bottom: -10px;
 }
 
 @media only screen and (min-width: 1000px) {

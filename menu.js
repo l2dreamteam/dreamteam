@@ -18,10 +18,6 @@ $(function(){
     }
   }); 
   
- // $('#topnav .nav a,#topnav h1 a,#btmnav .nav a').on('click', function(e){
- //   e.preventDefault(); // stop all hash(#) anchor links from loading
- // });
-  
   $('#navbtn').on('click', function(e){
     e.preventDefault();
     $("#topnav .nav").slideToggle(350);
