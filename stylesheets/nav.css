@@ -43,8 +43,6 @@
 
 /* responsive styles */
 @media screen and (max-width: 720px) {
-  h2 { font-size: 2.2em; }
-  p { font-size: 1.45em; line-height: 1.55em; }
   #topnav { height: auto; }
   #topnav nav { 
     display: none; 
