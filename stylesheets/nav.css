@@ -14,29 +14,31 @@
   display: block;
   overflow: hidden;
   margin: 0 auto;
+  z-index: 1000;
 }
 
-#topnav nav {
+#topnav .nav {
   margin-right: 5%;
   margin-top: 2em;
 }
 
-#topnav nav ul {
+#topnav .nav ul {
   list-style: none;
 }
-#topnav nav ul li {
+#topnav .nav ul li {
   display: inline-block;
 }
 
-#topnav nav ul li a {
+#topnav .nav ul li a {
   display: block;
   font-size: 11pt;
   text-decoration: none;
   text-transform: uppercase;
   padding: 0;
-
+  z-index: 100;
 }
-#topnav nav ul li a:hover {
+
+#topnav .nav ul li a:hover {
   color: #fff;
 }
 
@@ -44,15 +46,15 @@
 /* responsive styles */
 @media screen and (max-width: 720px) {
   #topnav { height: auto; }
-  #topnav nav { 
+  #topnav .nav { 
     display: none; 
     position: static;
     width: 100%;
     top: auto;
     right: auto;
   }
-  #topnav nav ul li {margin: 0; }
-  #topnav nav ul li a {
+  #topnav .nav ul li {margin: 0; }
+  #topnav .nav ul li a {
     display: inline-block;
     width: auto;
     line-height: 1.4em;
@@ -60,10 +62,10 @@
     font-size: 9pt;
     padding: 6px 9px;
   }
-  #topnav nav ul li a:hover {
+  #topnav .nav ul li a:hover {
 
   }
-  nav ul li a.sel {
+  .nav ul li a.sel {
     color: #656ac1;
   }
   
@@ -73,19 +75,19 @@
 }
 
 @media screen and (min-width: 720px) {
-  nav ul li a.sel {
+  .nav ul li a.sel {
     color: #656ac1;
   }
 
-.nav-container nav {
+.nav-container .nav {
   float: right;
 }
 
-  #topnav nav ul li {
+  #topnav .nav ul li {
     margin: 0; 
   }
 
-  #topnav nav ul li a {
+  #topnav .nav ul li a {
     line-height: 2em;
     border: 0;
     padding: 6px 9px;

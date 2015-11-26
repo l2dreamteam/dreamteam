@@ -25,8 +25,6 @@ audio,
 canvas,
 video {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
 }
 
 /*
@@ -154,8 +152,8 @@ small {
    Lists
    ========================================================================== */
 
-nav ul,
-nav ol {
+.nav ul,
+.nav ol {
   list-style: none;
   list-style-image: none;
   padding: 0;
@@ -214,7 +212,7 @@ textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
-  *vertical-align: middle;
+  vertical-align: middle;
 }
 
 button,
@@ -228,12 +226,7 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
-  *overflow: visible;
-}
-
-button[disabled],
-input[disabled] {
-  cursor: default;
+  overflow: visible;
 }
 
 input[type="checkbox"],
@@ -325,6 +318,7 @@ a {
   color: #ffcc00;
   font-weight: 400;
   text-decoration: none;
+  display:inline-block;
 }
 a:hover {
   color: #ffeb9b;
@@ -365,9 +359,6 @@ blockquote {
   font-style: italic;
 }
 
-.header {
-  position: cover;
-}
 
 .img-flex {
   width: 100%;
@@ -424,7 +415,8 @@ section #title .credits.right {
 }
 
 footer {
-
+  height: 64px;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -469,15 +461,12 @@ footer {
   }
 }
 @media only screen and (min-width: 480px) {
-  #header {
-    margin-top: 10px;
-  }
 
   section {
     margin-top: 40px;
   }
 
-  nav {
+  .nav {
     display: block;
   }
 
