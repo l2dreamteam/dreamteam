@@ -177,6 +177,7 @@ small {
 
 img {
   border: 0;
+
 }
 
 svg:not(:root) {
@@ -288,6 +289,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
+  font-weight: 200;
+  letter-spacing: .5px;
 }
 
 h1, h2, h3 {
@@ -312,6 +315,7 @@ h3 {
   font-family: 'Playfair Display', sans-serif !important;
   font-weight: 100;
   color: #F0C658;
+  text-align: center;
 }
 
 a {
@@ -350,6 +354,10 @@ strong {
 
 section img {
   max-width: 100%;
+}
+
+section {
+
 }
 
 blockquote {
@@ -414,7 +422,10 @@ section #title .credits.right {
   float: right;
 }
 
-
+.dividers img {
+  display: block;
+  margin: 0 auto;
+}
 
 .footer-img{
   width: 100%;
