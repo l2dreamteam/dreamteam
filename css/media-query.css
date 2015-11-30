@@ -38,16 +38,6 @@
      margin: 0 auto;
   }
 
-  .instruction {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 100;
-    letter-spacing: .5px;
-    color: #ccc;
-    margin: 0 auto;
-    display: block;
-  }
-
     summary {
   margin-top: 0em;
 }

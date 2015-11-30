@@ -46,6 +46,16 @@
   background: #718189;
 }
 
+  .instruction{
+    text-align: center;
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    letter-spacing: .5px !important;
+    color: #ccc !important;
+    margin: 0 auto;
+    display: block;
+  }
+
 .cell {
   padding: 6px 12px;
   display: table-cell;
