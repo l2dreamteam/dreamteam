@@ -46,6 +46,15 @@
   background: #718189;
 }
 
+.no-class {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 200;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+}
+
   .instruction{
     text-align: center;
     font-size: 12px !important;
