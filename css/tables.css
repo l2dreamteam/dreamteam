@@ -1,0 +1,60 @@
+.container {
+  display: block;
+  margin: 0 auto;
+  }
+
+.table {
+  margin: 1em 0 1em 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+  font-weight: 200;
+  letter-spacing: .5px
+}
+
+.row {
+  display: table-row;
+  color: #fff;
+}
+.row:nth-of-type(odd) {
+  background: #0e0e0e;
+}
+
+.row.header {
+  color: #ffffff;
+  background: #212042;
+}
+.row.healer {
+  background: #df64a3;
+}
+.row.enchanter {
+  background: #7c387a;
+}
+.row.rogue {
+  background: #5e78c7;
+}
+.row.archer {
+  background: #50b7a9;
+}
+.row.warrior {
+  background: #ba5152;
+}
+.row.wizard {
+  background: #8947ad;
+}
+.row.summoner {
+  background: #718189;
+}
+
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+}
+
+.cell-large {
+  display: none;
+}
+
+.cell-small {
+  display: block;
+}
