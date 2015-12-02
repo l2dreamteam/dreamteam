@@ -8,9 +8,33 @@
     display: block;
   }
 
-    summary {
-  margin-top: 0em;
+  summary {
+    margin-top: 0em;
+  }
+
+  .contact-logos {
+    width: 75px;
+    padding: 1em 0;
+  }
+
+  #form-main{
+    margin-top: 0em;
+  }
+
+  .vent-small {
+    display: inline-block !important;
+  }
+
+  .vent-spacing {
+    display: inline-block !important;
+  }
+
+  .vent-port {
+  margin-top: 0em !important;
+  padding-bottom: 0em !important;
+  display: inline-block;
 }
+
 }
 
 

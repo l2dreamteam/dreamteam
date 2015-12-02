@@ -6,6 +6,7 @@
   width:100%;
   display: block;
   padding-top:0px;
+  margin-top: -2em;
 }
 
 #form-div {
@@ -40,7 +41,7 @@
   background: #0E0E0E;
   box-shadow: 0;
   border: 1px solid #f5b233;
-  color: #3498db;
+  color: #F5B233;
   outline: none;
   padding: 13px 13px 13px 54px;
 }
@@ -147,3 +148,63 @@ input:focus, textarea:focus {
     padding-right: 3%;
   }
 }
+
+/* ROSTER IMAGE DROP DOWN */
+
+.main_div {
+  text-align:center;
+  background: #000;
+}
+
+.inner_div {
+  background: #000;
+  height: auto;
+  letter-spacing: .5px !important;
+  font-weight: 200 !important;
+}
+
+.inner_div p {
+  letter-spacing: .5px;
+  font-weight: 200 !important;
+}
+
+.inner_div a {
+  text-align: center;
+  display: inline !important;
+  color: white !important;
+  font-weight: 200 !important;
+}
+
+.inner_div a:hover {
+  text-align: center;
+  display: inline !important;
+  color: #ffcc00 !important;
+}
+
+.buttons a {
+  font-size: 16px;
+}
+
+.buttons a:hover {
+  cursor:pointer;
+  font-size: 16px;
+}
+
+.vent-small {
+  display: block;
+}
+
+.vent-spacing {
+  display: none;
+}
+
+.vent-port {
+  margin-top: -1em;
+  padding-bottom: 2em;
+}
+
+
+
+
+
+

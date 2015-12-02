@@ -72,6 +72,17 @@ body {
   margin: 0;
 }
 
+::selection {
+  background: #ccc; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ccc; /* Gecko Browsers */
+}
+
+strong {
+  font-weight: 700;
+  color: #ffcc00;
+}
 /* =============================================================================
    Links
    ========================================================================== */
@@ -174,7 +185,7 @@ small {
 /* Contact us logos */
 
 .contact-logos {
-  width: 100px;
+  width: 50px;
   padding: 1em 0;
 }
 
