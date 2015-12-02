@@ -161,7 +161,7 @@ small {
 }
 
 /* =============================================================================
-   Logo
+   Logos
    ========================================================================== */
 
 .logo {
@@ -169,6 +169,13 @@ small {
   position: relative;
   top: 40px;
   left: .5em;
+}
+
+/* Contact us logos */
+
+.contact-logos {
+  width: 100px;
+  padding: 1em 0;
 }
 
 /* =============================================================================
@@ -440,68 +447,4 @@ section #title .credits.right {
   margin-bottom: -10px;
 }
 
-@media only screen and (min-width: 1000px) {
-.img-flex-large {
-  width: 100%;
-  display: block;
-  }
-}
 
-@media only screen and (min-width: 721px) {
-  #title .credits {
-    display: block;
-    width: 100%;
-    line-height: 30px;
-    text-align: center;
-  }
-  #title .credits .left {
-    float: none;
-    display: block;
-  }
-  #title .credits .right {
-    float: none;
-    display: block;
-  }
-
-  .img-flex-small {
-  width: 100%;
-  display: none;
-}
-
-  .img-flex-large {
-    width: 100%;
-    display: block;
-  }
-
-  .banner {
-    margin-top: -7em;
-  }
-
-    .logo {
-  width: 300px;
-  position: relative;
-  top: 45px;
-  left: 3em;
-  }
-}
-
-@media only screen and (min-width: 540px) {
-  .dividers img {
-    max-width: 60%;
-  }
-
-}
-
-@media only screen and (min-width: 480px) {
-
-  section {
-    margin-top: 40px;
-  }
-
-  .nav {
-    display: block;
-  }
-
-
-
-}
