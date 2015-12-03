@@ -83,6 +83,12 @@ strong {
   font-weight: 700;
   color: #ffcc00;
 }
+
+i {
+  font-weight: italic;
+  color: #AC597D;
+  font-weight: 200;
+}
 /* =============================================================================
    Links
    ========================================================================== */
@@ -158,6 +164,10 @@ small {
   font-size: 75%;
 }
 
+.center {
+  text-align: center;
+}
+
 
 /* =============================================================================
    Lists
@@ -200,6 +210,11 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
+}
+
+.media-img {
+  cursor: pointer;
+  margin-top: 1em;
 }
 
 
@@ -327,6 +342,8 @@ h1 {
 
 h2 {
   font-size: 24px;
+  font-weight: 200;
+  color: #4daaab;
 }
 
 h4, h5, h6 {

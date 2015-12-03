@@ -64,7 +64,15 @@
 
     summary {
   margin-top: 0em;
-}
+  }
+
+  section #title p {
+    max-width: 80%;
+  }
+
+  .media-img {
+    margin-top: 2em;
+  }
 
   /* ========== DIVIDERS ========= */
     .dividers img {
