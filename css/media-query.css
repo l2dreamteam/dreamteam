@@ -1,3 +1,13 @@
+
+/* ========== FOOTER TEXT ONLY ========= */
+@media only screen and (min-width: 400px) {
+  .footer a {
+    font-size: 11px;
+  }
+}
+
+/* ========== FOOTER TEXT ONLY ========= */
+
 @media only screen and (min-width: 480px) {
 
   section {
@@ -33,7 +43,16 @@
   margin-top: 0em !important;
   padding-bottom: 0em !important;
   display: inline-block;
-}
+  }
+    .footer a {
+    font-size: 12px;
+  }
+
+  .footer p {
+    font-weight: 100;
+    max-width: 420px;
+    margin: 0 auto 1em;
+  }
 
 }
 
@@ -73,6 +92,14 @@
   .media-img {
     margin-top: 2em;
   }
+
+  /* ========== FOOTER ========= */
+
+
+.footer ul li {
+  display: block;
+  margin: 0 1em 0 0;
+}
 
   /* ========== DIVIDERS ========= */
     .dividers img {
