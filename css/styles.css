@@ -351,7 +351,8 @@ h4, h5, h6 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 21px;
+  letter-spacing: .5px;
   line-height: 24px;
   font-family: 'Playfair Display', sans-serif !important;
   font-weight: 100;
@@ -425,8 +426,7 @@ blockquote {
 
 section {
   max-width: 650px;
-  padding: 30px 0px 50px 0px;
-  margin: 20px 0;
+  padding: 30px 0px 0px 0px;
   margin-top: 70px;
 }
 section #title {
@@ -511,7 +511,7 @@ footer {
 .footer-img{
   width: 100%;
   background-size: auto;
-  margin-bottom: -10px;
+  margin-bottom: -6px;
 }
 
 

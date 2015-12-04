@@ -1,12 +1,16 @@
 
-/* ========== FOOTER TEXT ONLY ========= */
+/* ========== TYPOGRAPHY ONLY ========= */
 @media only screen and (min-width: 400px) {
   .footer a {
     font-size: 11px;
   }
+
+  h3 {
+  font-size: 030px;
+  letter-spacing: 0px;
 }
 
-/* ========== FOOTER TEXT ONLY ========= */
+/* ========== TYPOGRPAHY ONLY ========= */
 
 @media only screen and (min-width: 480px) {
 
