@@ -18,6 +18,10 @@
     margin-top: 40px;
   }
 
+  .team-section {
+  margin-top: 40px;
+  }
+
   .nav {
     display: block;
   }
@@ -56,6 +60,10 @@
     font-weight: 100;
     max-width: 420px;
     margin: 0 auto 1em;
+  }
+
+  .dividers img {
+  margin-top: 70px;
   }
 
 }
@@ -107,7 +115,7 @@
 
   /* ========== DIVIDERS ========= */
     .dividers img {
-    max-width: 60%;
+    max-width: 55%;
   }
 
 }

@@ -399,7 +399,7 @@ section img {
 }
 
 .team-section {
-  margin-bottom: 5em;
+  margin-top: -40px;
 }
 
 blockquote {
@@ -465,7 +465,7 @@ section #title .credits.right {
 
 .dividers img {
   display: block;
-  margin: 0 auto;
+  margin: 40px auto;
   max-width: 80%;
 }
 
