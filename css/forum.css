@@ -1,5 +1,5 @@
 body, .navbar {
-	background-color: white;
+	background-color: black;
 }
 
 #fa_search, #fa_share {
@@ -27,9 +27,4 @@ display: none;
 .forabg,
 .navbar {
 	border: 0;
-}
-
-.table-title, .table-title h2 {
-	background-color: #aaa;
-	color: #fff;
 }
