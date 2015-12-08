@@ -22,3 +22,9 @@ display: none;
 	height: 26px !important;
 	padding: 3px;
 }
+
+#wrap,
+.forabg,
+.navbar {
+	border: 0;
+}
