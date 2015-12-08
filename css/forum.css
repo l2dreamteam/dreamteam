@@ -10,8 +10,8 @@ display: none !important;
 display: none;
 }
 
-#fa_right #fa_menu #fa_welcome {
-    background-image: url(http://illiweb.com/fa/fdf3/link-l10.png);
-    background-repeat: no-repeat;
-    padding-left: 17px;
-  }
+#fa_toolbar #fa_magnifier, #fa_toolbar #fa_fb, #fa_toolbar #fa_twitter, #fa_toolbar #fa_gp, #fa_toolbar #fa_mail, #fa_toolbar #fa_rss, #fa_toolbar #fa_hide, #fa_toolbar_hidden #fa_show {
+    background-image: url('http://l2dreamteam.com/images/forum/toolbar.png');
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
