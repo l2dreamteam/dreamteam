@@ -28,3 +28,8 @@ display: none;
 .navbar {
 	border: 0;
 }
+
+h3 {
+	background-color: #aaa;
+	color: #fff;
+}
