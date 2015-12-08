@@ -9,3 +9,9 @@ display: none !important;
 #fa_right.welcome #fa_menu ul {
 display: none;
 }
+
+#fa_right #fa_menu #fa_welcome {
+    background-image: url(http://illiweb.com/fa/fdf3/link-l10.png);
+    background-repeat: no-repeat;
+    padding-left: 17px;
+  }
