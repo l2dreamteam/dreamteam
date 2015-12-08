@@ -15,3 +15,10 @@ display: none;
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+#fa_toolbar_hidden {
+	width: 33px !important;
+	height: 26px !important;
+	padding: 3px;
+}
