@@ -29,6 +29,10 @@ display: none;
 	border: 0;
 }
 
+.fa_tbMainElement, .fa_tbMainElement a, #fa_show {
+	display: none !important;
+}
+
 #fa_left {
   display: none !important;
 }
