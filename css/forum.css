@@ -21,7 +21,8 @@ table.ipbtable th {
 }
 
 span strong {
-	color: red;
+	color: #44947c;
+	font-weight: 100;
 }
 
 #fa_search, #fa_share {
