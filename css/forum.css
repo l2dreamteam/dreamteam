@@ -17,6 +17,11 @@ span.status.clearfix img {
 	width: 35px;
 }
 
+span.status.clearfix {
+	margin-right: 0px;
+	margin-left: -60px;
+}
+
 table.ipbtable th {
 	border: 0;
 }
