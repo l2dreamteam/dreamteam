@@ -32,3 +32,7 @@ display: none;
 #fa_left {
   display: none !important;
 }
+
+a.mainmenu[href="/search"] {
+display: none;
+}
