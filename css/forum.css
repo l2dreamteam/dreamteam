@@ -37,6 +37,13 @@ display: none;
 	background-color: transparent;
 }
 
+#fa_right {
+  padding-top: 1%;
+  padding-right: 1em;
+  font-weight: 100;
+  color: #efc663;
+}
+
 #fa_left {
   display: none !important;
 }
