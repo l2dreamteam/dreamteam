@@ -43,9 +43,8 @@ display: none;
   font-weight: 100;
 }
 
-#fa_menu,
 #fa_notifications {
-	color: #efc663;
+	color: #efc663 !important;
 }
 
 #fa_left {
