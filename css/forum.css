@@ -33,6 +33,10 @@ display: none;
 	display: none !important;
 }
 
+#fa_toolbar_hidden {
+	background-color: transparent;
+}
+
 #fa_left {
   display: none !important;
 }
