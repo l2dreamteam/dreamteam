@@ -36,3 +36,19 @@ display: none;
 a.mainmenu[href="/search"] {
 display: none;
 }
+
+a.mainmenu[href="/calendar"] {
+display: none;
+}
+
+a.mainmenu[href="/groups"] {
+display: none;
+}
+
+a.mainmenu[href="/faq"] {
+display: none;
+}
+
+a.mainmenu[href="/gallery"] {
+display: none;
+}
