@@ -23,7 +23,7 @@ span.status.clearfix {
 }
 
 td.row2.icon {
-	padding-left: 50px;
+	padding-left: 50px !important;
 }
 
 table.ipbtable th {
