@@ -41,7 +41,7 @@ display: none;
   padding-top: 1%;
   padding-right: 1em;
   font-weight: 100;
-  color: #efc663;
+  color: #efc663 !important;
 }
 
 #fa_left {
