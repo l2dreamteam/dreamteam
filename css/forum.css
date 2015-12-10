@@ -7,6 +7,10 @@ a:link {
 	text-decoration: none !important;
 }
 
+.linklist ul li a {
+	font-weight: 200;
+}
+
 table.ipbtable td {
 	vertical-align: middle;
 	padding: 0;
