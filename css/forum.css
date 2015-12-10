@@ -12,6 +12,10 @@ table.ipbtable td {
 	padding: 0;
 }
 
+td .row1 .centered img {
+	width: 35px;
+}
+
 #fa_search, #fa_share {
 display: none !important;
 }
