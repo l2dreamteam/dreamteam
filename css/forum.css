@@ -34,6 +34,15 @@ table.ipbtable td.icon {
 	vertical-align: middle !important;
 }
 
+table.ipbtable th.forum {
+	width: 47%;
+}
+
+.mod-text {
+	display: block;
+	font-weight: 100;
+}
+
 span strong {
 	color: #44947c;
 	font-weight: 100;
