@@ -41,7 +41,11 @@ display: none;
   padding-top: 1%;
   padding-right: 1em;
   font-weight: 100;
-  color: #efc663 !important;
+}
+
+#fa_menu,
+#fa_notifications {
+	color: #efc663;
 }
 
 #fa_left {
