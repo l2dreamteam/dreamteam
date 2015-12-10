@@ -18,8 +18,12 @@ span.status.clearfix img {
 }
 
 span.status.clearfix {
-	margin-right: 0px;
-	margin-left: -60px;
+	margin-right: -60px;
+	margin-left: -40px !important;
+}
+
+td.row2.icon {
+	padding-left: 50px;
 }
 
 table.ipbtable th {
@@ -29,6 +33,11 @@ table.ipbtable th {
 span strong {
 	color: #44947c;
 	font-weight: 100;
+}
+
+.ul-icons-home li img {
+	width: 35px;
+	margin: 0 .5em 0 1em;
 }
 
 #fa_search, #fa_share {
