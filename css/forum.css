@@ -28,3 +28,7 @@ display: none;
 .navbar {
 	border: 0;
 }
+
+#fa_left {
+  display: none !important;
+}
