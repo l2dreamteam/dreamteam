@@ -9,7 +9,7 @@ a:link {
 
 table.ipbtable td {
 	vertical-align: middle;
-	padding: 0 5px;
+	padding: 0;
 }
 
 td.row1.centered img,
@@ -28,6 +28,10 @@ td.row2.icon {
 
 table.ipbtable th {
 	border: 0;
+}
+
+table.ipbtable td.icon {
+	vertical-align: middle !important;
 }
 
 span strong {
