@@ -13,7 +13,7 @@ table.ipbtable td {
 }
 
 td.row1.centered img,
-.row2 .icon img {
+span.status.clearfix img {
 	width: 35px;
 }
 
