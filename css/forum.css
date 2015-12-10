@@ -7,6 +7,11 @@ a:link {
 	text-decoration: none !important;
 }
 
+table.ipbtable td {
+	vertical-align: middle;
+	padding: 0;
+}
+
 #fa_search, #fa_share {
 display: none !important;
 }
