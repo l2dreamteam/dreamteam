@@ -1,3 +1,7 @@
+
+
+/* ======================= LINKS & MAIN CODES ======================= */
+
 body, .navbar {
 	background-color: black;
 }
@@ -10,6 +14,113 @@ a:link {
 .linklist ul li a {
 	font-weight: 200;
 }
+
+/* ======================= TYPOGRAPHY ======================= */
+
+.mod-text {
+	display: block;
+	font-weight: 100;
+}
+
+span strong {
+	color: #44947c;
+	font-weight: 100;
+}
+
+/* ======================= MENU & TOOL BAR ======================= */
+
+a.mainmenu[href="/search"] {
+display: none;
+}
+
+a.mainmenu[href="/calendar"] {
+display: none;
+}
+
+a.mainmenu[href="/groups"] {
+display: none;
+}
+
+a.mainmenu[href="/faq"] {
+display: none;
+}
+
+a.mainmenu[href="/gallery"] {
+display: none;
+}
+
+#fa_toolbar #fa_magnifier, 
+#fa_toolbar #fa_fb, 
+#fa_toolbar #fa_twitter, 
+#fa_toolbar #fa_gp, 
+#fa_toolbar #fa_mail, 
+#fa_toolbar #fa_rss, 
+#fa_toolbar #fa_hide, 
+#fa_toolbar_hidden #fa_show {
+    background-image: url('http://l2dreamteam.com/images/forum/toolbar.png');
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#fa_toolbar_hidden {
+	width: 33px !important;
+	height: 26px !important;
+	padding: 3px;
+}
+
+#wrap,
+.forabg,
+.navbar {
+	border: 0;
+}
+
+#fa_toolbar #fa_magnifier, 
+#fa_toolbar #fa_fb, 
+#fa_toolbar #fa_twitter, 
+#fa_toolbar #fa_gp, 
+#fa_toolbar #fa_mail, 
+#fa_toolbar #fa_rss, 
+#fa_toolbar #fa_hide, 
+#fa_toolbar_hidden #fa_show {
+	display: none !important;
+}
+
+#fa_toolbar_hidden {
+	background-color: transparent;
+}
+
+#fa_right {
+  padding-top: 1%;
+  padding-right: 1em;
+  font-weight: 100;
+}
+
+#fa_notifications {
+	color: #efc663 !important;
+}
+
+#fa_left {
+  display: none !important;
+}
+
+/* ======================= IMAGES ======================= */
+
+
+/* ======================= LOGIN & ERRORS ======================= */
+
+.login .errorwrap {
+	display: none;
+
+}
+
+.borderwrap .subtitle {
+	font-weight: 100;
+	padding: 15px 0;
+	text-align: center;
+}
+
+/* ======================= TABLES ======================= */
 
 table.ipbtable td {
 	vertical-align: middle;
@@ -42,15 +153,7 @@ table.ipbtable th.forum {
 	width: 47%;
 }
 
-.mod-text {
-	display: block;
-	font-weight: 100;
-}
-
-span strong {
-	color: #44947c;
-	font-weight: 100;
-}
+/* ========= ULs & LIs ========== */
 
 .ul-icons-home li img {
 	width: 35px;
@@ -65,63 +168,4 @@ display: none !important;
 display: none;
 }
 
-#fa_toolbar #fa_magnifier, #fa_toolbar #fa_fb, #fa_toolbar #fa_twitter, #fa_toolbar #fa_gp, #fa_toolbar #fa_mail, #fa_toolbar #fa_rss, #fa_toolbar #fa_hide, #fa_toolbar_hidden #fa_show {
-    background-image: url('http://l2dreamteam.com/images/forum/toolbar.png');
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
-
-#fa_toolbar_hidden {
-	width: 33px !important;
-	height: 26px !important;
-	padding: 3px;
-}
-
-#wrap,
-.forabg,
-.navbar {
-	border: 0;
-}
-
-#fa_toolbar #fa_magnifier, #fa_toolbar #fa_fb, #fa_toolbar #fa_twitter, #fa_toolbar #fa_gp, #fa_toolbar #fa_mail, #fa_toolbar #fa_rss, #fa_toolbar #fa_hide, #fa_toolbar_hidden #fa_show {
-	display: none !important;
-}
-
-#fa_toolbar_hidden {
-	background-color: transparent;
-}
-
-#fa_right {
-  padding-top: 1%;
-  padding-right: 1em;
-  font-weight: 100;
-}
-
-#fa_notifications {
-	color: #efc663 !important;
-}
-
-#fa_left {
-  display: none !important;
-}
-
-a.mainmenu[href="/search"] {
-display: none;
-}
-
-a.mainmenu[href="/calendar"] {
-display: none;
-}
-
-a.mainmenu[href="/groups"] {
-display: none;
-}
-
-a.mainmenu[href="/faq"] {
-display: none;
-}
-
-a.mainmenu[href="/gallery"] {
-display: none;
-}
+/* ======================= MEDIA QUERIES ======================= */
