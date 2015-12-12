@@ -162,7 +162,7 @@ table.ipbtable th.forum {
 	border: 0;
 }
 
-.linklist .clearfix .statlinks {
+.linklist.clearfix.statlinks {
 	display: none;
 }
 
