@@ -153,6 +153,12 @@ table.ipbtable th.forum {
 	width: 47%;
 }
 
+.topic-full {
+	display: none;
+}
+
+
+
 /* ========= ULs & LIs ========== */
 
 .ul-icons-home li img {
@@ -166,6 +172,12 @@ display: none !important;
 
 #fa_right.welcome #fa_menu ul {
 display: none;
+}
+
+/* ======================= FOOTER ======================= */
+
+#gfooter {
+	background-color: #000000;
 }
 
 /* ======================= MEDIA QUERIES ======================= */
