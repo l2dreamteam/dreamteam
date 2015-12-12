@@ -158,6 +158,14 @@ table.ipbtable th.forum {
 	display: none;
 }
 
+.thin {
+	border: 0;
+}
+
+.linklist .clearfix .statlinks {
+	display: none;
+}
+
 
 
 /* ========= ULs & LIs ========== */
