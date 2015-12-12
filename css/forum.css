@@ -143,6 +143,7 @@ td.row2.icon {
 
 table.ipbtable th {
 	border: 0;
+	background-color: transparent;
 }
 
 table.ipbtable td.icon {
