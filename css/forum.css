@@ -38,6 +38,26 @@ span strong {
 	font-weight: 100;
 }
 
+.postdetails h3 {
+	font-weight: 100;
+	font-size: 14px;
+}
+
+.postbody-head .post-info,
+.postdetails h3 {
+	margin-top: 1em;
+}
+
+.post-entry {
+	border-top: 1px solid #444;
+	padding: 10px;
+}
+
+.post .post-header {
+	background-color: #000;
+	padding-bottom: 15px;
+}
+
 /* ======================= MENU & TOOL BAR ======================= */
 
 a.mainmenu[href="/search"] {
