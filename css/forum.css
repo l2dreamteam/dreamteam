@@ -85,11 +85,18 @@ span strong {
 }
 
 #plus_menu {
-	left: 281px;
+	left: 54.5% !important;
+	width: 32% !important;
+	text-align: center;
+	border: 1px solid #111 !important;
 }
 
 .overview .left-overview {
 	padding: 5px 0 5px 10px;
+}
+
+div#plus_menu a:hover {
+	color: #fe9a44;
 }
 
 /* ======================= MENU & TOOL BAR ======================= */
