@@ -212,7 +212,7 @@ display: none;
 }
 
 #navstrip li.begin {
-	background: url('http://l2dreamteam.com/images/forum/feather.svg') no-repeat left 50%;
+	background: url('http://illiweb.com/fa/empty.gif') no-repeat left 50%;
 }
 
 /* ======================= IMAGES & BUTTONS ======================= */
@@ -253,6 +253,11 @@ display: none;
 
 .posting-options .posting-buttons li {
 	margin: 0 5px;
+}
+
+#navstrip li a {
+	font-weight: 100;
+	
 }
 
 
