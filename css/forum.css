@@ -99,6 +99,20 @@ div#plus_menu a:hover {
 	color: #fe9a44;
 }
 
+.popupmenu ul {
+	padding: 0;
+}
+
+.popupmenu li {
+	background-color: #222;
+
+}
+
+.popupmenu .avatar {
+	margin: -1px;
+	border: 1px solid #fe9a44;
+}
+
 /* ======================= MENU & TOOL BAR ======================= */
 
 a.mainmenu[href="/search"] {
