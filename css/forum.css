@@ -15,6 +15,17 @@ a:link {
 	font-weight: 200;
 }
 
+.next-prev {
+	float: none;
+	text-align: center;
+	font-weight: 100;
+	margin-top: 1em;
+}
+
+.next-prev a{
+	color: #B02A3F;
+	}
+
 /* ======================= TYPOGRAPHY ======================= */
 
 .mod-text {
