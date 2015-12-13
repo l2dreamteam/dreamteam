@@ -377,7 +377,8 @@ footer {
   font-weight: 200;
   color: #bbb;
   font-size: 11px;
-  padding: 0 1em;
+  padding: 1em;
+  width: 90%;
 }
 
 .footer-logos {
@@ -398,3 +399,9 @@ footer {
 }
 
 /* ======================= MEDIA QUERIES ======================= */
+
+@media screen and (min-width: 580px) {
+	.footer p {
+	  width: 70%;
+	}
+}
