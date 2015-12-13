@@ -168,7 +168,7 @@ table.ipbtable th.forum {
 
 .box-content,
 .post {
-	border: 4px solid #f5b233;
+	border-bottom: 4px solid #f5b233;
 }
 
 .post-footer ul.posting-icons {
