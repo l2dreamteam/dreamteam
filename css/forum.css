@@ -166,6 +166,9 @@ table.ipbtable th.forum {
 	display: none;
 }
 
+.box-content {
+	border: 0;
+}
 
 
 /* ========= ULs & LIs ========== */
