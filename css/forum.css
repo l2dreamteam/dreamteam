@@ -202,6 +202,11 @@ display: none;
 	margin: -18px 0 15px 0;
 }
 
+#navstrip li {
+	background-image: url ('http://www.l2dreamteam.com/images/forum/small-arrow-right.svg') no-repeat;
+	width: 10px;
+}
+
 /* ======================= IMAGES & BUTTONS ======================= */
 
 .button {
