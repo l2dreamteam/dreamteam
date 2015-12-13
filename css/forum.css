@@ -200,7 +200,7 @@ display: none;
 }
 
 .bar {
-	background-color: #222;
+	background-color: #111;
 	border-top: 1px solid #444;
 	padding: 13px 8px 8px 8px;
 	margin: 0px 0 15px 0;
@@ -366,6 +366,7 @@ display: none;
 	float: none;
 	margin: 0 auto;
 	text-align: center;
+	padding: 10px 0;
 }
 
 .ul-icons li {
