@@ -204,7 +204,7 @@ display: none;
 
 #navstrip li {
 	background: url('http://www.l2dreamteam.com/images/forum/small-arrow-right.svg') no-repeat left 50%;
-	width: 10px;
+	background-size: 9px;
 }
 
 /* ======================= IMAGES & BUTTONS ======================= */
