@@ -102,6 +102,10 @@ div#plus_menu a:hover {
 	color: #fe9a44;
 }
 
+.popupmenu {
+	border: 1px solid #111;
+}
+
 .popupmenu ul {
 	padding: 0;
 }
@@ -110,6 +114,7 @@ div#plus_menu a:hover {
 	background-color: #111;
 	background-image: none;
 	text-align: center;
+	border: 0;
 }
 
 .popupmenu .avatar {
