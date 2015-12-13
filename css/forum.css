@@ -130,6 +130,10 @@ ul.popupmenu li.popupmenu-category {
 	background-color: #222;
 }
 
+.popupmenu li a:hover {
+	color: #fe9a44;
+}
+
 div#pm1 a:hover {
 	color: #fe9a44;
 }
