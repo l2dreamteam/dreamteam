@@ -63,10 +63,10 @@ span strong {
 .popmenubutton a {
 	background-color: #222;
 	font-weight: 100;
-	padding: 4px 19px 6px 9px;
+	padding: 4px 20px 6px 9px;
 	border: 1px solid #191935;
 	background-image: url('http://www.l2dreamteam.com/images/forum/small-arrow.svg');
-	background-size: 11px;
+	background-size: 13px;
 }
 
 /* ======================= MENU & TOOL BAR ======================= */
