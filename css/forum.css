@@ -196,7 +196,7 @@ table.ipbtable th.forum {
 #text_editor_textarea, 
 #textarea_content 
 iframe#text_editor_iframe {
-	width: 100%;
+	width: 100% !important;
 }
 
 /* ========= ULs & LIs ========== */
