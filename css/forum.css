@@ -111,6 +111,12 @@ div#plus_menu a:hover {
 .popupmenu .avatar {
 	margin: -1px;
 	border: 1px solid #fe9a44;
+	height: 55px;
+	width: 55px;
+}
+
+div#pm1 a:hover {
+	color: #fe9a44;
 }
 
 /* ======================= MENU & TOOL BAR ======================= */
