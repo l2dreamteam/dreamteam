@@ -203,7 +203,7 @@ display: none;
 }
 
 #navstrip li {
-	background-image: url ('http://www.l2dreamteam.com/images/forum/small-arrow-right.svg') no-repeat;
+	background: url('http://www.l2dreamteam.com/images/forum/small-arrow-right.svg') no-repeat left 50%;
 	width: 10px;
 }
 
