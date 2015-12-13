@@ -107,8 +107,9 @@ div#plus_menu a:hover {
 }
 
 .popupmenu li {
-	background-color: #222;
-
+	background-color: #111;
+	background-image: none;
+	text-align: center;
 }
 
 .popupmenu .avatar {
@@ -116,6 +117,12 @@ div#plus_menu a:hover {
 	border: 1px solid #fe9a44;
 	height: 55px;
 	width: 55px;
+}
+
+ul.popupmenu li.popupmenu-category {
+	color: #fff;
+	font-size: 14px;
+	background-color: #222;
 }
 
 div#pm1 a:hover {
@@ -308,6 +315,10 @@ table.ipbtable td.icon {
 
 table.ipbtable th.forum {
 	width: 47%;
+}
+
+table.ipbtable th.forum2 {
+	width: 25%;
 }
 
 .topic-full {
