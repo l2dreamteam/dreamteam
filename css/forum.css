@@ -60,6 +60,14 @@ span strong {
 	padding-bottom: 15px;
 }
 
+.popmenubutton a {
+	background-color: #222;
+	font-weight: 100;
+	padding: 4px 19px 6px 9px;
+	border: 1px solid #191935;
+	background-image: url('http://www.l2dreamteam.com/images/small-arrow.svg');
+}
+
 /* ======================= MENU & TOOL BAR ======================= */
 
 a.mainmenu[href="/search"] {
