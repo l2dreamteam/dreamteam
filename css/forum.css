@@ -115,6 +115,13 @@ display: none;
   display: none !important;
 }
 
+.bar {
+	background-color: #222;
+	border-top: 1px solid #444;
+	padding: 13px 8px 8px 8px;
+	margin: -18px 0 15px 0;
+}
+
 /* ======================= IMAGES ======================= */
 
 
@@ -206,6 +213,11 @@ display: none;
 
 #gfooter {
 	background-color: #000000;
+}
+
+.topic-footer {
+	background-color: #222;
+	padding: 3px 0 12px 0;
 }
 
 /* ======================= MEDIA QUERIES ======================= */
