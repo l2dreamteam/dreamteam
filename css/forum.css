@@ -51,6 +51,8 @@ span strong {
 .post-entry {
 	border-top: 1px solid #444;
 	padding: 10px;
+	background-color: #000;
+	margin: 0;
 }
 
 .post .post-header {
