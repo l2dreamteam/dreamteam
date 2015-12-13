@@ -122,7 +122,44 @@ display: none;
 	margin: -18px 0 15px 0;
 }
 
-/* ======================= IMAGES ======================= */
+/* ======================= IMAGES & BUTTONS ======================= */
+
+.button {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float: right;
+  width: 30%;
+  border: #522958 solid 2px;
+  cursor:pointer;
+  background-color: #6c4475;
+  color:white;
+  padding-top:12px;
+  padding-bottom:12px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:100;
+}
+
+.button:hover{
+  background-color: #522958;
+  color: #ccc;
+}
+  
+.button:hover {
+  color: #3498db;
+}
+  
+.ease {
+  width: 0px;
+  background-color: #fbfbfb;
+
+}
+
+.button:hover .ease{
+  width:100%;
+  background-color:white;
+}
 
 
 /* ======================= LOGIN & ERRORS ======================= */
