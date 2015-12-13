@@ -195,7 +195,8 @@ table.ipbtable th.forum {
 
 #text_editor_textarea, 
 #textarea_content 
-iframe#text_editor_iframe {
+iframe#text_editor_iframe,
+div#textarea_content {
 	width: 100% !important;
 }
 
