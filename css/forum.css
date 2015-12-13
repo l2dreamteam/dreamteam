@@ -256,10 +256,12 @@ display: none;
 }
 
 #navstrip li a {
-	font-weight: 100;
-	
+	font-weight: 100 !important;
 }
 
+#navstrip li a:hover {
+	color: ;
+}
 
 /* ======================= LOGIN & ERRORS ======================= */
 
@@ -358,6 +360,16 @@ display: none !important;
 
 #fa_right.welcome #fa_menu ul {
 display: none;
+}
+
+.ul-icons {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.ul-icons li {
+	display: inline-block;
 }
 
 /* ======================= FOOTER ======================= */
