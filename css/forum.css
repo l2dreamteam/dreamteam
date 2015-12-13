@@ -59,6 +59,10 @@ span strong {
 	padding-bottom: 15px;
 }
 
+#navstrip {
+	color: #fff;
+	font-weight: 100;
+}
 
 /* ==== Drop down menus ==== */
 
@@ -199,12 +203,16 @@ display: none;
 	background-color: #222;
 	border-top: 1px solid #444;
 	padding: 13px 8px 8px 8px;
-	margin: -18px 0 15px 0;
+	margin: 0px 0 15px 0;
 }
 
 #navstrip li {
 	background: url('http://www.l2dreamteam.com/images/forum/small-arrow-right.svg') no-repeat left 50%;
 	background-size: 9px;
+}
+
+#navstrip li.begin {
+	background: url('http://l2dreamteam.com/images/forum/feather.svg') no-repeat left 50%;
 }
 
 /* ======================= IMAGES & BUTTONS ======================= */
@@ -356,6 +364,7 @@ display: none;
 .topic-footer {
 	background-color: #222;
 	padding: 3px 0 12px 0;
+	margin-bottom: -18px;
 }
 
 footer {
