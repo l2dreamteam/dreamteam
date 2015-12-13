@@ -193,6 +193,11 @@ table.ipbtable th.forum {
 	margin: 20px 0;
 }
 
+#text_editor_textarea, 
+#textarea_content 
+iframe#text_editor_iframe {
+	width: 100%;
+}
 
 /* ========= ULs & LIs ========== */
 
