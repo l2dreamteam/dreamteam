@@ -354,4 +354,47 @@ display: none;
 	padding: 3px 0 12px 0;
 }
 
+footer {
+  padding-top: 2em;
+}
+
+.footer {
+  background-color: #0E0E0E;
+  width: 100%;
+  overflow: hidden;
+  font-weight: 100 !important;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.footer a {
+  text-transform: uppercase;
+  margin: 0 .5em;
+  font-size: 9px;
+}
+
+.footer p {
+  font-weight: 200;
+  color: #bbb;
+  font-size: 11px;
+  padding: 0 1em;
+}
+
+.footer-logos {
+  width: 40px;
+  padding: 1em 0;
+}
+
+.section{
+    display: block;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.footer-img{
+  width: 100%;
+  background-size: auto;
+  margin-bottom: -6px;
+}
+
 /* ======================= MEDIA QUERIES ======================= */
