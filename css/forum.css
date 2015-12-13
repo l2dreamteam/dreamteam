@@ -60,6 +60,12 @@ span strong {
 	padding-bottom: 15px;
 }
 
+
+/* ==== Drop down menus ==== */
+
+.popmenubutton {
+	height: 0;
+}
 .popmenubutton a {
 	background-color: #222;
 	font-weight: 100;
@@ -68,6 +74,11 @@ span strong {
 	background-image: url('http://www.l2dreamteam.com/images/forum/small-arrow.svg');
 	background-size: 13px;
 }
+
+.title-overview {
+	background-color: #222;
+}
+
 
 /* ======================= MENU & TOOL BAR ======================= */
 
@@ -189,6 +200,10 @@ display: none;
   background-color:white;
 }
 
+.posting-options .posting-buttons li {
+	margin: 0 5px;
+}
+
 
 /* ======================= LOGIN & ERRORS ======================= */
 
@@ -263,6 +278,15 @@ table.ipbtable th.forum {
 iframe#text_editor_iframe,
 div#textarea_content {
 	width: 100% !important;
+}
+
+.ipbform2 dl dt label {
+	width: 145px;
+	text-align: right
+}
+
+.ipbform2 dl dd {
+	margin-left: 28%;
 }
 
 /* ========= ULs & LIs ========== */
