@@ -69,6 +69,7 @@ span strong {
 .popmenubutton a {
 	background-color: #222;
 	font-weight: 100;
+	color: #fff;
 	padding: 4px 20px 6px 9px;
 	border: 1px solid #191935;
 	background-image: url('http://www.l2dreamteam.com/images/forum/small-arrow.svg');
@@ -79,6 +80,17 @@ span strong {
 	background-color: #222;
 }
 
+.overview hr.dashed {
+	border: 1px solid #444;
+}
+
+.overview .row3 {
+	left: 281px;
+}
+
+.overview .left-overview {
+	padding: 5px 0 5px 10px;
+}
 
 /* ======================= MENU & TOOL BAR ======================= */
 
