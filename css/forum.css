@@ -398,10 +398,6 @@ div#textarea_content {
 display: none !important;
 }
 
-#fa_right.welcome #fa_menu ul {
-display: none;
-}
-
 .ul-icons {
 	float: none;
 	margin: 0 auto;
