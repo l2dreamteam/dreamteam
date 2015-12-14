@@ -298,6 +298,14 @@ display: none;
 	border: 1px inset #444;
 }
 
+.module-advert, #main-content iframe{
+  display: none !important;
+}
+
+div.centerer.footer-links{
+  display: none !important;
+}
+
 /* ======================= TABLES ======================= */
 
 table.ipbtable td {
