@@ -306,6 +306,11 @@ div.centerer.footer-links{
   display: none !important;
 }
 
+.n0451ac.mainmenu,
+div#trigger-container-72845 {
+	display: none !important;
+}
+
 /* ======================= TABLES ======================= */
 
 table.ipbtable td {
