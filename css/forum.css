@@ -300,8 +300,10 @@ display: none;
 
 .module-advert, #main-content iframe{
   display: none !important;
-  height: 0 !important;
-  margin-bottom: -50px;
+}
+
+div.centerer.footer-links{
+  display: none !important;
 }
 
 /* ======================= TABLES ======================= */
