@@ -279,6 +279,16 @@ display: none;
 	color: ;
 }
 
+.logo img {
+	width: 250px;
+}
+
+.logo {
+	position: absolute;
+	left: 1em;
+	top: 1em;
+}
+
 /* ======================= LOGIN & ERRORS & INPUTS ======================= */
 
 .login .errorwrap {
