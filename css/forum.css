@@ -355,13 +355,11 @@ td.row2.icon {
 }
 
 td.row2 p:first-child {
-	padding-top: 1em;
+	padding-top: 6px;
 }
 
-
-
 table.ipbtable td p:last-child {
-	margin-bottom: .5em;
+	margin-bottom: 10px;
 }
 
 table.ipbtable th {
@@ -396,7 +394,7 @@ td.row1 img {
 	border: 0;
 }
 
-.row1 {
+.row1, .row2 {
 	background-color: #111 !important;
 }
 
