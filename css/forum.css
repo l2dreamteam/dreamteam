@@ -158,23 +158,13 @@ div#pm1 a:hover {
 
 /* ======================= MENU & TOOL BAR ======================= */
 
-a.mainmenu[href="/search"] {
-display: none;
-}
-
-a.mainmenu[href="/calendar"] {
-display: none;
-}
-
-a.mainmenu[href="/groups"] {
-display: none;
-}
-
-a.mainmenu[href="/faq"] {
-display: none;
-}
-
-a.mainmenu[href="/gallery"] {
+a.mainmenu[href="/search"],
+a.mainmenu[href="/gallery"],
+a.mainmenu[href="/faq"],
+a.mainmenu[href="/calendar"],
+a.mainmenu[href="/groups"],
+a.mainmenu[href="/profile"]
+ {
 display: none;
 }
 
