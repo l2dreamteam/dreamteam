@@ -342,6 +342,11 @@ div#trigger-container-72845 {
 	display: none !important;
 }
 
+#profile-advanced-layout #new-message-link {
+	left: 0;
+	top: -20px;
+}
+
 /* ======================= TABLES ======================= */
 
 table.ipbtable td {
