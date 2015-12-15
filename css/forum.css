@@ -411,7 +411,7 @@ td.row1 img {
 
 .formsubtitle, table.ipbtable th.formsubtitle {
 	font-weight: 100;
-	padding-left: .5em 0 .5em 1em;
+	padding: .5em 0 .5em 1em;
 }
 
 .box-content,
