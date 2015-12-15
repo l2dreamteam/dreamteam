@@ -307,6 +307,10 @@ display: none;
 	top: 1em;
 }
 
+label img {
+	width: 10px;
+}
+
 /* ======================= LOGIN & ERRORS & INPUTS ======================= */
 
 .login .errorwrap {
