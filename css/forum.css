@@ -163,7 +163,7 @@ a.mainmenu[href="/gallery"],
 a.mainmenu[href="/faq"],
 a.mainmenu[href="/calendar"],
 a.mainmenu[href="/groups"],
-a.mainmenu[href="/profile"]
+a.mainmenu[href="/profile?mode=editprofile"]
  {
 display: none;
 }
