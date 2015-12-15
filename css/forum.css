@@ -358,6 +358,14 @@ td.row2 p:first-child {
 	padding-top: 1em;
 }
 
+table.ipbtable td p:first-child {
+	margin-top: .5em;
+}
+
+table.ipbtable td p:last-child {
+	margin-bottom: .5em;
+}
+
 table.ipbtable th {
 	border: 0;
 	background-image: none;
@@ -396,6 +404,11 @@ td.row1 img {
 
 .linklist.clearfix.statlinks {
 	display: none;
+}
+
+.formsubtitle, table.ipbtable th.formsubtitle {
+	font-weight: 100;
+	padding-left: .5em 0 .5em 1em;
 }
 
 .box-content,
