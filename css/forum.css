@@ -354,13 +354,11 @@ td.row2.icon {
 	padding-left: 50px !important;
 }
 
-thead {
-	background-color: #111;
-}
 
 table.ipbtable th {
 	border: 0;
 	background-image: none;
+	background-color: #111;
 }
 
 table.ipbtable td.icon {
