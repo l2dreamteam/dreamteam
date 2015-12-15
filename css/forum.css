@@ -354,10 +354,9 @@ td.row2.icon {
 	padding-left: 50px !important;
 }
 
-td.row2,
-.clearfix .left,
-
-
+td.row2 p:first-child {
+	padding-top: 1em;
+}
 
 table.ipbtable th {
 	border: 0;
