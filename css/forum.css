@@ -28,9 +28,22 @@ a:link {
 
 /* ======================= TYPOGRAPHY ======================= */
 
+th.forum, 
+th.topics, 
+th.replies, 
+th.post-info,
+.mod-text,
+.postdetails h3,
+#navstrip {
+	font-weight: 100;
+}
+
+th.forum {
+	padding-left: 1em;
+}
+
 .mod-text {
 	display: block;
-	font-weight: 100;
 }
 
 span strong {
@@ -39,7 +52,6 @@ span strong {
 }
 
 .postdetails h3 {
-	font-weight: 100;
 	font-size: 14px;
 }
 
@@ -61,7 +73,6 @@ span strong {
 
 #navstrip {
 	color: #fff;
-	font-weight: 100;
 }
 
 /* ==== Drop down menus ==== */
@@ -343,9 +354,13 @@ td.row2.icon {
 	padding-left: 50px !important;
 }
 
+thead {
+	background-color: #111;
+}
+
 table.ipbtable th {
 	border: 0;
-	background-color: transparent;
+	background-image: none;
 }
 
 table.ipbtable td.icon {
@@ -354,6 +369,7 @@ table.ipbtable td.icon {
 
 table.ipbtable th.forum {
 	width: 47%;
+	padding-left: 1em;
 }
 
 table.ipbtable th.forum2 {
@@ -366,6 +382,10 @@ table.ipbtable th.forum2 {
 
 .thin {
 	border: 0;
+}
+
+.row1 {
+	background-color: #171717;
 }
 
 .linklist.clearfix.statlinks {
