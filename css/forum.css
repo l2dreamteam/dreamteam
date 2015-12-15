@@ -358,9 +358,7 @@ td.row2 p:first-child {
 	padding-top: 1em;
 }
 
-table.ipbtable td p:first-child {
-	margin-top: .5em;
-}
+
 
 table.ipbtable td p:last-child {
 	margin-bottom: .5em;
