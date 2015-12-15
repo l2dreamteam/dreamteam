@@ -481,13 +481,13 @@ display: none !important;
 
 footer {
   background-color: #0E0E0E;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   overflow: hidden;
   font-weight: 100 !important;
   text-align: center;
-  padding: 1em 0;
+  /* padding: 1em 0; */
 }
 
 .footer a {
