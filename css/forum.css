@@ -397,6 +397,10 @@ td.row1 img {
 	display: none;
 }
 
+.clearfix .left {
+	padding-top: 1em;
+}
+
 .thin {
 	border: 0;
 }
@@ -412,6 +416,7 @@ td.row1 img {
 .formsubtitle, table.ipbtable th.formsubtitle {
 	font-weight: 100;
 	padding: .5em 0 .5em 1em;
+	border-bottom: 1px solid #444;
 }
 
 .box-content,
