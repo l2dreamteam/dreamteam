@@ -479,12 +479,10 @@ display: none !important;
 	margin-bottom: -18px;
 }
 
-footer {
-  padding-top: 2em;
-}
-
 .footer {
   background-color: #0E0E0E;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   overflow: hidden;
   font-weight: 100 !important;
