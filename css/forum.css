@@ -249,7 +249,7 @@ display: none;
 
 /* ======================= IMAGES & BUTTONS ======================= */
 
-.button {
+.purple-button {
   font-family: 'Arial', Helvetica, sans-serif;
   width: 150px;
   border: #522958 solid 2px;
@@ -267,7 +267,7 @@ display: none;
   text-transform: uppercase;
 }
 
-.button:hover{
+.purple-button:hover{
   background-color: #522958;
   color: #ccc;
 }
@@ -278,7 +278,7 @@ display: none;
 
 }
 
-.button:hover .ease{
+.purple-button:hover .ease{
   width:100%;
   background-color:white;
 }
