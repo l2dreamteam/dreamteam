@@ -78,8 +78,8 @@ span strong {
 }
 
 .post .post-header {
-	background-color: transparent;
-	padding: 15px 10px;
+	background-color: transparent !important;
+	padding: 15px 10px !important;
 	min-height: 0;
 
 }
