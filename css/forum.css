@@ -464,6 +464,14 @@ div#textarea_content {
 	padding: 10px 0;
 }
 
+table#memberlist {
+	width: 100%;
+}
+
+.table1 thead {
+	text-align: center;
+}
+
 /* ========= ULs & LIs ========== */
 
 .ul-icons-home li img {
