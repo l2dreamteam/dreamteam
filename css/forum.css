@@ -336,21 +336,6 @@ div.centerer.footer-links{
   display: none !important;
 }
 
-.n0451ac.mainmenu,
-.o18b319c.mainmenu,
-div#trigger-container-72845 {
-	display: none !important;
-}
-
-#profile-advanced-layout #new-message-link {
-	left: 0;
-	top: -20px;
-}
-
-#profile-advanced-right {
-	margin-top: 4.60em;
-}
-
 /* ======================= TABLES ======================= */
 
 table.ipbtable td {
