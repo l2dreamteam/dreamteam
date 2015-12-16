@@ -81,7 +81,7 @@ span strong {
 	background-color: transparent !important;
 	padding: 15px 10px !important;
 	min-height: 0;
-	border: 1px solid #444;
+	border-bottom: 1px solid #444;
 }
 
 #navstrip {
