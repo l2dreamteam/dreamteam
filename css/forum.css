@@ -472,6 +472,11 @@ table#memberlist {
 	text-align: center;
 }
 
+tbody.statused .row1,
+tbody.statused .row2 {
+	padding: 5px 0;
+}
+
 /* ========= ULs & LIs ========== */
 
 .ul-icons-home li img {
@@ -493,6 +498,10 @@ display: none !important;
 .ul-icons li {
 	display: inline-block;
 	margin: 6px 3px 0 7px;
+}
+
+ul.privmsg li a {
+	margin: -6px -10px;
 }
 
 /* ======================= FOOTER ======================= */
