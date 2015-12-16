@@ -412,6 +412,14 @@ td.row1 img {
 	margin: 0 1em;
 }
 
+.statused td {
+	background-color: #111;
+}
+
+th.select-items {
+	padding-right: 15px !important;
+}
+
 .topic-full {
 	display: none;
 }
@@ -534,8 +542,6 @@ ul.privmsg li a {
 
 footer {
   background-color: #0E0E0E;
-  position: relative;
-  bottom: 0;
   width: 100%;
   overflow: hidden;
   font-weight: 100 !important;
