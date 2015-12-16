@@ -504,6 +504,14 @@ ul.privmsg li a {
 	margin: -6px -10px;
 }
 
+.statused .row2 strong {
+	font-weight: 100;
+	margin: 0 auto;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
 /* ======================= FOOTER ======================= */
 
 #gfooter {
