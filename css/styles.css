@@ -71,6 +71,7 @@ textarea {
 body {
   margin: 0;
   background-color: #000;
+  color: #ccc;
 }
 
 ::selection {
@@ -93,6 +94,10 @@ i {
 /* =============================================================================
    Links
    ========================================================================== */
+
+a {
+  color: #f5b233;
+}
 
 a:hover,
 a:active {
@@ -119,6 +124,9 @@ h2 {
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
+  text-align: center;
+  color: #f5b233;
+  font-family: Playfair Display;
 }
 
 h4 {
