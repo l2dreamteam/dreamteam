@@ -2,6 +2,10 @@
 
 /* ======================= LINKS & MAIN CODES ======================= */
 
+body {
+	height: 100%;
+}
+
 body, .navbar {
 	background-color: black;
 }
