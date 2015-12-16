@@ -541,10 +541,9 @@ ul.privmsg li a {
 }
 
 footer {
-  background-color: #0E0E0E;
+  background-color: #0E0E0E !important;
   width: 100%;
   overflow: hidden;
-  font-weight: 100 !important;
   text-align: center;
   /* padding: 1em 0; */
 }
