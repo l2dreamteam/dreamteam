@@ -459,6 +459,11 @@ div#textarea_content {
 	width: 20px;
 }
 
+.inner {
+	background-color: #222;
+	padding: 10px 0;
+}
+
 /* ========= ULs & LIs ========== */
 
 .ul-icons-home li img {
