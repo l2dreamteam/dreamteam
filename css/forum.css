@@ -10,6 +10,10 @@ body, .navbar {
 	background-color: black;
 }
 
+.minwidth_IE {
+	min-height: 100%;
+}
+
 a:visited,
 a:link {
 	text-decoration: none !important;
