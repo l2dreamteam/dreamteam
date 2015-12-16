@@ -333,6 +333,10 @@ section img {
   max-width: 100%;
 }
 
+section p {
+  font-weight: 100;
+}
+
 .team-section {
   margin-top: -40px;
 }
