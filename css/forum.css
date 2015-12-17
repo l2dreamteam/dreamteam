@@ -332,8 +332,10 @@ label img {
 
 .borderwrap .subtitle {
 	font-weight: 100;
-	padding: 15px 0;
+	padding: 10px 0;
 	text-align: center;
+	background-color: #1d1d1d;
+	color: #6B8BBD;
 }
 
 .ipbform2 dl dd textarea.inputbox {
@@ -628,6 +630,25 @@ input[type="radio"] {
 
 dd label {
 	margin-right: 15px;
+}
+
+.exthelp, .rte-menu-button{
+	background-color: #111;
+	background-image: url ('');
+}
+
+.messaging-box,
+#smiley-box {
+	background-color: transparent !important;
+}
+
+dl.faq.row1 {
+	display: none;
+	border:none !important;
+}
+
+dl.faq .question {
+	font-weight: 100;
 }
 
 /* ======================= FOOTER ======================= */
