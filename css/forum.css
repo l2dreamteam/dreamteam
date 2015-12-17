@@ -578,6 +578,7 @@ input.inputbox {
 	height: 20px;
 	color: #666;
 	font-size: 12px;
+	padding-left: 5px;
 }
 
 input, textarea, select, a { 
@@ -592,7 +593,7 @@ input, textarea, select, a {
 .inner dt {
 float: left;
 clear: left;
-width: 100px;
+width: 305px;
 text-align: right;
 }
 
@@ -601,7 +602,7 @@ content: "";
 }
 
 .inner dd {
-margin: 0 0 0 110px;
+margin: 0 0 0 320px;
 padding: 0 0 0.5em 0;
 }
 
