@@ -580,6 +580,19 @@ input.inputbox {
 	font-weight: 100;
 }
 
+input, textarea, select, a { 
+	outline: #f5b233; 
+}
+
+input.input:focus{
+  background: #0E0E0E;
+  box-shadow: 0;
+  border: 1px solid #f5b233;
+  color: #F5B233;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
 /* ======================= FOOTER ======================= */
 
 #gfooter {
