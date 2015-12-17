@@ -548,9 +548,9 @@ ul.privmsg {
 }
 
 dd.current-img {
-	float: left;
+	float: right;
 	width: 28%;
-	margin: 0 auto;
+	margin: 0 auto !important;
 	text-align: center;
 	padding: 5px;
 	background-color: #222;
