@@ -634,7 +634,7 @@ dd label {
 
 .exthelp, .rte-menu-button{
 	background-color: #111;
-	background-image: url ('');
+	border-color: #444;
 }
 
 .messaging-box,
