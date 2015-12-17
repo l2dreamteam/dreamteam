@@ -542,6 +542,17 @@ dd.current-img {
 	width: 25%;
 	margin: 0 auto;
 	text-align: center;
+	padding: 5px;
+}
+
+fieldset {
+	padding: 10px 0;
+}
+
+fieldset.submit-buttons {
+	text-align: center;
+	border-top: 1px solid #444;
+	background-color: #1d1d1d;
 }
 
 /* ======================= FOOTER ======================= */
