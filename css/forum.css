@@ -660,6 +660,16 @@ dl.faq.row1:first-child {
 	display: none;
 }
 
+.codebox {
+	background-color: #222;
+}
+
+.codebox dt {
+	background-color: #222244;
+	color: #fff;
+	font-weight: 100;
+}
+
 /* ======================= FOOTER ======================= */
 
 #gfooter {
