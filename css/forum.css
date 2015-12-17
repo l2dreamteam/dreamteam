@@ -643,11 +643,16 @@ dd label {
 }
 
 dl.faq.row1 {
-	display: none;
 	border:none !important;
 }
 
 dl.faq .question {
+	font-weight: 100;
+}
+
+.faq dd {
+	background-color: transparent;
+	border: none;
 	font-weight: 100;
 }
 
