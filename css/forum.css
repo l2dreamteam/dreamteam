@@ -539,9 +539,14 @@ ul.privmsg {
 
 dd.current-img {
 	float: left;
-	width: 25%;
+	width: 28%;
 	margin: 0 auto;
 	text-align: center;
+	padding: 5px;
+	background-color: #222;
+}
+
+dd.current-img img{
 	padding: 5px;
 }
 
@@ -553,6 +558,24 @@ fieldset.submit-buttons {
 	text-align: center;
 	border-top: 1px solid #444;
 	background-color: #1d1d1d;
+}
+
+dt.avatar-label {
+	border-bottom: 1px solid #444;
+	margin-bottom: 7px;
+}
+
+dl.avatar-dl {
+	float: right;
+	width: 70%;
+	padding-top: 10px;
+}
+
+input.inputbox {
+	width: 90%;
+	background-color: #1d1d1d;
+	border: 1px solid #111;
+	height: 20px;
 }
 
 /* ======================= FOOTER ======================= */
