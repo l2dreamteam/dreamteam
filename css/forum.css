@@ -517,6 +517,10 @@ ul.privmsg li a {
 	margin: -6px -10px;
 }
 
+ul.privmsg {
+	float: none;
+}
+
 .statused .row2 strong {
 	font-weight: 100;
 	margin: 0 auto;
