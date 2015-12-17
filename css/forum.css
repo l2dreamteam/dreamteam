@@ -576,21 +576,35 @@ input.inputbox {
 	background-color: #1d1d1d;
 	border: 1px solid #111;
 	height: 20px;
-	color: #fff;
-	font-weight: 100;
+	color: #666;
+	font-size: 12px;
 }
 
 input, textarea, select, a { 
-	outline: #f5b233; 
+	outline: none; 
 }
 
-input.input:focus{
-  background: #0E0E0E;
-  box-shadow: 0;
-  border: 1px solid #f5b233;
-  color: #F5B233;
-  outline: none;
-  padding: 13px 13px 13px 54px;
+.inner p {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.inner dt {
+float: left;
+clear: left;
+width: 100px;
+text-align: right;
+font-weight: bold;
+color: green;
+}
+
+.inner dt:after {
+content: ":";
+}
+
+.inner dd {
+margin: 0 0 0 110px;
+padding: 0 0 0.5em 0;
 }
 
 /* ======================= FOOTER ======================= */
