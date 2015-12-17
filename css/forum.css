@@ -2,16 +2,13 @@
 
 /* ======================= LINKS & MAIN CODES ======================= */
 
-body, html {
-	height: 100%;
-}
-
+/* 
+  body, html {
+  	height: 100%;
+  }
+*/
 body, .navbar {
 	background-color: black;
-}
-
-.minwidth_IE {
-	min-height: 100%;
 }
 
 a:visited,
