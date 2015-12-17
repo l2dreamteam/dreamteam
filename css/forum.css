@@ -643,7 +643,7 @@ dd label {
 }
 
 dl.faq.row1 {
-	border:none !important;
+	border: none !important;
 }
 
 dl.faq .question {
@@ -654,6 +654,10 @@ dl.faq .question {
 	background-color: transparent;
 	border: none;
 	font-weight: 100;
+}
+
+dl.faq.row1:first-child {
+	display: none;
 }
 
 /* ======================= FOOTER ======================= */
