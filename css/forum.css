@@ -474,7 +474,6 @@ div#textarea_content {
 
 .inner {
 	background-color: #222;
-	padding: 10px 0;
 }
 
 table#memberlist {
@@ -527,6 +526,12 @@ ul.privmsg {
 	text-align: center;
 	margin: 0 auto;
 	display: block;
+}
+
+/* ======================= PROFILE STYLING ======================= */
+
+.explain {
+	background-color: #333;
 }
 
 /* ======================= FOOTER ======================= */
