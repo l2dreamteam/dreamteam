@@ -257,8 +257,8 @@ display: none;
 /* ======================= IMAGES & BUTTONS ======================= */
 
 .button {
-	width: 66px;
-	padding: 3px;
+	width: auto;
+	padding: 3px 15px;
 	background-color: #ccc;
 	border: 1px solid #222;
 }
@@ -353,7 +353,11 @@ div.centerer.footer-links{
 select {
 	border: 0;
 	border-radius: 0;
-	margin-left: 10px;
+}
+
+span.italic {
+	font-size: 11px;
+	color: #555;
 }
 
 /* ======================= TABLES ======================= */
@@ -474,6 +478,7 @@ div#textarea_content {
 
 .inner {
 	background-color: #222;
+	margin-top: 2px;
 }
 
 table#memberlist {
@@ -514,6 +519,11 @@ display: none !important;
 
 ul.privmsg li a {
 	margin: -6px -10px;
+}
+
+ul.privmsg li {
+	margin-right: 0;
+
 }
 
 ul.privmsg {
@@ -604,6 +614,19 @@ content: "";
 .inner dd {
 margin: 0 0 0 320px;
 padding: 0 0 0.5em 0;
+}
+
+html ul.profile_field_list li {
+	display: inline;
+	padding-right: 15px;
+}
+
+input[type="radio"] {
+	margin-right: 6px;
+}
+
+dd label {
+	margin-right: 15px;
 }
 
 /* ======================= FOOTER ======================= */
