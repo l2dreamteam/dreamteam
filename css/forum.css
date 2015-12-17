@@ -532,6 +532,16 @@ ul.privmsg {
 
 .explain {
 	background-color: #333;
+	padding: 8px 7%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+dd.current-img {
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 /* ======================= FOOTER ======================= */
