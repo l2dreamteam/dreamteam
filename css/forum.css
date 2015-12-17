@@ -603,7 +603,7 @@ input, textarea, select, a {
 .inner dt {
 float: left;
 clear: left;
-width: 305px;
+width: 40%;
 text-align: right;
 border-bottom: 1px solid #444;
 }
@@ -613,7 +613,7 @@ content: "";
 }
 
 .inner dd {
-margin: 0 0 0 320px;
+margin: 0 0 0 42%;
 padding: 0 0 0.5em 0;
 }
 
