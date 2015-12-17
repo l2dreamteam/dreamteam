@@ -594,12 +594,10 @@ float: left;
 clear: left;
 width: 100px;
 text-align: right;
-font-weight: bold;
-color: green;
 }
 
 .inner dt:after {
-content: ":";
+content: "";
 }
 
 .inner dd {
