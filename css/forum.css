@@ -582,7 +582,7 @@ dl.avatar-dl {
 }
 
 input.inputbox {
-	width: 90%;
+	width: 50% !important;
 	background-color: #1d1d1d;
 	border: 1px solid #111;
 	height: 20px;
