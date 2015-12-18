@@ -320,6 +320,10 @@ display: none;
 	border: 1px solid #222;
 }
 
+.qreply {
+	background-color: transparent;
+}
+
 .purple-button,
 fieldset.formbuttonrow.center .button,
 form#quick_reply .button {
@@ -455,7 +459,7 @@ span.italic {
 fieldset.formbuttonrow.center {
 	margin-top: 0px;
 	height: 50px;
-	padding-top: 40px;
+	padding-top: 4px 0 20px;
 }
 
 .box-content div.agreement {
@@ -771,7 +775,7 @@ display: none !important;
 }
 
 ul.privmsg li a {
-	margin: -6px -10px;
+	margin: -5px -10px;
 }
 
 ul.privmsg li {
