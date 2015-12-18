@@ -457,6 +457,15 @@ input.inputbox.tiny {
 	width: 100%;
 }
 
+.borderwrap .padded {
+    margin: 2em;
+    text-align: center;
+}
+
+.formbuttonrow.center {
+    margin-top: 2em;
+}
+
 /* ======================= TABLES ======================= */
 
 .panel {
@@ -479,6 +488,10 @@ input.inputbox.tiny {
 table.ipbtable td {
 	vertical-align: middle;
 	padding: 0;
+}
+
+table.ipbtable td img {
+	width: 25px;
 }
 
 td.row1.centered img,
