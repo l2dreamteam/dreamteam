@@ -455,14 +455,17 @@ p.forum-desc {
 	color: #555;
 }
 
-table.ipbtable .forum-name h3 {
+table.ipbtable .forum-name h3,
+table.ipbtable .forum-name h2 {
     font-size: 14px;
 }
 
-table.ipbtable .forum-name h3 a {
+table.ipbtable .forum-name h3 a,
+table.ipbtable .forum-name h2 a {
 	color: #F5B222;
 	font-weight: 200 !important;
 }
+
 
 span.status.clearfix {
 	margin-right: -60px;
