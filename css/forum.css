@@ -107,6 +107,11 @@ div.maintitle h2 {
 	background-color: #171717;
 }
 
+.subtitle {
+	padding: 5px;
+	background-color: #111;
+}
+
 h3.subtitle {
 	text-align: center;
 	font-weight:100;
