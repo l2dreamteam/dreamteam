@@ -482,7 +482,7 @@ table.ipbtable th.forum2 {
 }
 
 td.row1 img {
-	margin: 0 1em;
+	margin: none;
 }
 
 .statused td {
