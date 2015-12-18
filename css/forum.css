@@ -417,6 +417,10 @@ input.inputbox.tiny {
 	padding: 5px;
 }
 
+.search-footer-box {
+	width: 100%;
+}
+
 /* ======================= TABLES ======================= */
 
 .panel {
@@ -441,7 +445,7 @@ td.row1.centered img,
 span.status.clearfix img {
 	width: 30px;
 	padding: 5px;
-	margin-right: -20px;
+	margin-right: -13px;
 }
 
 span.status.clearfix {
@@ -503,6 +507,10 @@ th.select-items {
 }
 .thin {
 	border: 0;
+}
+
+.row1 {
+	text-align: center;
 }
 
 .row1, .row2 {
