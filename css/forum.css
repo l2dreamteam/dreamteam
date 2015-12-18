@@ -462,6 +462,10 @@ fieldset.formbuttonrow.center {
 	padding: 4px 0 20px;
 }
 
+.formbuttonrow {
+	background-color: #1d1d1d;
+}
+
 .box-content div.agreement {
 	padding: 1.5em;
 }
