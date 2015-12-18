@@ -90,6 +90,11 @@ span strong {
 	border-bottom: 1px solid #444;
 }
 
+div.maintitle h2 {
+	font-size: 15px;
+	font-weight: 100;
+}
+
 #navstrip {
 	color: #fff;
 }
