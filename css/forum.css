@@ -95,6 +95,10 @@ div.maintitle h2 {
 	font-weight: 100;
 }
 
+.box-content p.subtitle {
+    color: #555;
+}
+
 #navstrip {
 	color: #fff;
 }
@@ -325,6 +329,10 @@ display: none;
 	margin: 0 5px;
 }
 
+.friends-foes-list img {
+	width: 15px;
+}
+
 #navstrip li a {
 	font-weight: 100 !important;
 }
@@ -350,6 +358,11 @@ label img {
 .postprofile-head .avatar img {
 	width: auto;
 	height: 55px;
+}
+
+td.row2 img {
+	width: 20px;
+	padding: 3px;
 }
 
 /* ======================= LOGIN & ERRORS & INPUTS ======================= */
@@ -440,6 +453,11 @@ input.inputbox.tiny {
 .panel .inner p {
 	padding-top: 0;
 	text-align: center;
+}
+
+#checkboxes td.row1 {
+    text-align: right;
+    padding: 2px 0;
 }
 
 table.ipbtable td {
@@ -587,7 +605,7 @@ div#textarea_content {
 	font-weight: 100;
 	text-align: right;
 	width: 100%;
-	padding: 0 10px 0;
+	padding: 10px;
 }
 
 .ipbform2 dl dt {
@@ -597,6 +615,7 @@ div#textarea_content {
 .ipbform2 dl dd,
 fieldset.frm-set dl dd {
 	margin-left: 35%;
+	color: #666;
 }
 
 fieldset.frm-set dl dt {
