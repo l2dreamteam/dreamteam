@@ -449,6 +449,10 @@ span.status.clearfix img {
 	margin-right: -13px;
 }
 
+p.forum-desc {
+	margin-bottom: 0;
+}
+
 span.status.clearfix {
 	margin-right: -60px;
 	margin-left: -40px !important;
