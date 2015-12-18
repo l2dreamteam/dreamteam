@@ -97,6 +97,13 @@ span strong {
 	background-color: #171717;
 }
 
+h3.subtitle {
+	text-align: center;
+	font-weight:100;
+	padding: 7px;
+	color: #555;
+}
+
 /* ==== Drop down menus ==== */
 
 .popmenubutton {
@@ -360,6 +367,33 @@ select {
 span.italic {
 	font-size: 11px;
 	color: #555;
+}
+
+fieldset.formbuttonrow.center {
+	margin-top: 0px;
+	height: 50px;
+	padding-top: 40px;
+}
+
+.box-content div.agreement {
+	padding: 1.5em;
+}
+
+.forumbg.forumbg-table {
+	text-align: center;
+	margin-top: 1em;
+}
+
+td.avatar-mini {
+	padding: 5px;
+	text-align: left;
+}
+
+input.inputbox.tiny {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 /* ======================= TABLES ======================= */
