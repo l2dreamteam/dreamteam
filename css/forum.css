@@ -320,7 +320,8 @@ display: none;
 	border: 1px solid #222;
 }
 
-.purple-button {
+.purple-button,
+fieldset.formbuttonrow.center .button {
   font-family: 'Arial', Helvetica, sans-serif;
   width: 150px;
   border: #522958 solid 2px;
@@ -683,6 +684,10 @@ fieldset.frm-set dl dd {
 
 fieldset.frm-set dl dt {
 	width: 32%;
+}
+
+.ipbform fieldset {
+	border: 0;
 }
 
 fieldset.frm-set dl dd, fieldset.frm-set dl dt {
