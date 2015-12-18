@@ -509,6 +509,10 @@ th.select-items {
 	border: 0;
 }
 
+.clear {
+	height: auto;
+}
+
 .row1 {
 	text-align: center;
 }
@@ -578,6 +582,11 @@ fieldset.frm-set dl dt {
 
 fieldset.frm-set dl dd, fieldset.frm-set dl dt {
 	padding: auto;
+}
+
+fieldset.stats-field.genmed li {
+	background-color: transparent;
+	padding: 0;
 }
 
 #profile-advanced-details dl dd img {
