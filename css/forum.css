@@ -157,7 +157,6 @@ div#plus_menu a:hover {
 .popupmenu li {
 	background-color: #111;
 	background-image: none;
-	text-align: center;
 	border: 0;
 }
 
@@ -165,7 +164,7 @@ div#plus_menu a:hover {
 	margin: -1px;
 	border: 1px solid #fe9a44;
 	height: 55px;
-	width: 55px;
+	width: auto;
 }
 
 ul.popupmenu li.popupmenu-category {
@@ -343,7 +342,7 @@ label img {
 }
 
 .postprofile-head .avatar img {
-	width: 55px;
+	width: auto;
 	height: 55px;
 }
 
@@ -414,6 +413,10 @@ input.inputbox.tiny {
 	margin-bottom: 1em;
 }
 
+.search-footer-box fieldset {
+	padding: 5px;
+}
+
 /* ======================= TABLES ======================= */
 
 .panel {
@@ -436,7 +439,9 @@ table.ipbtable td {
 
 td.row1.centered img,
 span.status.clearfix img {
-	width: 35px;
+	width: 30px;
+	padding: 5px;
+	margin-right: -20px;
 }
 
 span.status.clearfix {
@@ -512,6 +517,7 @@ th.select-items {
 	font-weight: 100;
 	padding: .5em 0 .5em 1em;
 	border-bottom: 1px solid #444;
+	text-align: center;
 }
 
 .box-content,
@@ -520,7 +526,15 @@ th.select-items {
 }
 
 .post-footer ul.posting-icons {
-	margin: 20px 0;
+	margin: 20px;
+}
+
+.title-options.right {
+	margin-right: 20px;
+}
+
+table.ipbtable th.starter {
+	width: 10%;
 }
 
 #text_editor_textarea, 
