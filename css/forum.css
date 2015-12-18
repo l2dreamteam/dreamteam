@@ -321,7 +321,8 @@ display: none;
 }
 
 .purple-button,
-fieldset.formbuttonrow.center .button {
+fieldset.formbuttonrow.center .button,
+form#quick_reply .button {
   font-family: 'Arial', Helvetica, sans-serif;
   width: 150px;
   border: #522958 solid 2px;
