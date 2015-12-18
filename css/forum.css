@@ -521,6 +521,7 @@ div#textarea_content {
 	font-weight: 100;
 	text-align: right;
 	width: 100%;
+	padding: 0 10px 0;
 }
 
 .ipbform2 dl dt {
@@ -533,7 +534,7 @@ fieldset.frm-set dl dd {
 }
 
 fieldset.frm-set dl dt {
-	width: 0;
+	width: 32%;
 }
 
 fieldset.frm-set dl dd, fieldset.frm-set dl dt {
