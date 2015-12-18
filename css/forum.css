@@ -365,6 +365,23 @@ td.row2 img {
 	padding: 3px;
 }
 
+.box-content.profile fieldset.formbuttonrow.center {
+	margin-top: 0px;
+	height: 25px;
+	padding-top: 15px;
+	background-color: #171717;
+}
+
+#checkboxes table.ipbtable td {
+
+}
+
+#checkboxes thead th:first-child {
+	width: 35%;
+}
+
+
+
 /* ======================= LOGIN & ERRORS & INPUTS ======================= */
 
 .login .errorwrap {
@@ -456,7 +473,6 @@ input.inputbox.tiny {
 }
 
 #checkboxes td.row1 {
-    text-align: right;
     padding: 2px 0;
 }
 
