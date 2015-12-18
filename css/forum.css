@@ -517,6 +517,10 @@ th.select-items {
 	background-color: #111 !important;
 }
 
+.text-left {
+	text-align: left !important;
+}
+
 .linklist.clearfix.statlinks {
 	display: none;
 }
