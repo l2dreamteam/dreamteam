@@ -342,6 +342,11 @@ label img {
 	width: 10px;
 }
 
+.postprofile-head .avatar img {
+	width: 55px;
+	height: 55px;
+}
+
 /* ======================= LOGIN & ERRORS & INPUTS ======================= */
 
 .login .errorwrap {
@@ -488,9 +493,9 @@ th.select-items {
 }
 
 .clearfix .left {
-	padding-top: 1em;
+    padding: .5em 0 .5em 1em;
+    font-size: 20px;
 }
-
 .thin {
 	border: 0;
 }
@@ -771,6 +776,14 @@ dl.faq.row1:first-child {
 	background-image: none;
 }
 
+.polls {
+	background-color: transparent;
+}
+
+.postprofile-head .popmenubutton-new-out {
+	margin: 0;
+	padding: 0;
+}
 /* ======================= FOOTER ======================= */
 
 #gfooter {
