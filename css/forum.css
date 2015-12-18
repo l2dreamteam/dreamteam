@@ -99,6 +99,15 @@ div.maintitle h2 {
     color: #555;
 }
 
+.subtitle p.options {
+	background-color: #1d1d1d;
+	padding: 0;
+}
+
+.panel .inner fieldset dl {
+	border-bottom: 1px solid #444;
+}
+
 #navstrip {
 	color: #fff;
 }
@@ -116,6 +125,10 @@ div.maintitle h2 {
 .row1 .subtitle {
 	border-bottom: 1px solid #444;
 	font-size: 14px;
+}
+
+.borderwrapm, div.borderwrap {
+	background-color: #222;
 }
 
 h3.subtitle {
@@ -503,6 +516,7 @@ table.ipbtable td {
 
 table.ipbtable td img {
 	width: 25px;
+	margin-right: 10px;
 }
 
 td.row1.centered img,
@@ -829,7 +843,6 @@ float: left;
 clear: left;
 width: 40%;
 text-align: right;
-border-bottom: 1px solid #444;
 }
 
 .inner dt:after {
@@ -855,7 +868,7 @@ dd label {
 }
 
 .exthelp, .rte-menu-button{
-	background-color: #111;
+	background-color: #1d1d1d;
 	border-color: #444;
 }
 
