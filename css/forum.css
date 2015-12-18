@@ -518,13 +518,17 @@ div#textarea_content {
 }
 
 .ipbform2 dl dt label {
-	width: 80%;
 	font-weight: 100;
-	text-align: right
+	text-align: right;
+	width: 85%;
+}
+
+.ipbform2 dl dt {
+	width: 30%;
 }
 
 .ipbform2 dl dd {
-	margin-left: 28%;
+	margin-left: 35%;
 }
 
 #profile-advanced-details dl dd img {
