@@ -671,6 +671,10 @@ div#textarea_content {
 	width: 33%;
 }
 
+.ipbform2 dl {
+	background-color: transparent;
+}
+
 .ipbform2 dl dd,
 fieldset.frm-set dl dd {
 	margin-left: 35%;
