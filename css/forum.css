@@ -788,10 +788,18 @@ tbody.statused .row2 {
 	color: ;
 }
 
-    margin: 0 auto;
+fieldset.formcolumn1.connexion {
+	margin: 0 auto;
     display: block;
     text-align: center;
     float: none;
+}
+
+.columned fieldset.formcolumn2 {
+	float: none;
+	width: 100%;
+}
+    
 
 /* ========= ULs & LIs ========== */
 
@@ -836,6 +844,10 @@ ul.privmsg {
 	text-align: center;
 	margin: 0 auto;
 	display: block;
+}
+
+.input_field {
+	width: 100%;
 }
 
 /* ======================= PROFILE STYLING ======================= */
