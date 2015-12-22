@@ -654,6 +654,14 @@ th.select-items {
 	background-color: #111 !important;
 }
 
+strong.pagination .page-sep {
+	display: inline-block;
+}
+
+strong.pagination {
+	margin-left: 10px;
+}
+
 .text-left {
 	text-align: left !important;
 }
