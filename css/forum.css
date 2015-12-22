@@ -785,7 +785,7 @@ tbody.statused .row2 {
 .ipbform fieldset legend {
 	font-weight: 200;
 	font-size: 14px;
-	color: ;
+	color: #B02B4F;
 }
 
 fieldset.formcolumn1.connexion {
@@ -793,7 +793,7 @@ fieldset.formcolumn1.connexion {
     display: block;
     text-align: center;
     float: none;
-    width: none;
+    width: 10% !important;
 }
 
 .columned fieldset.formcolumn2 {
@@ -803,7 +803,8 @@ fieldset.formcolumn1.connexion {
 }
 
 div.login fieldset label {
-	width: 6em;
+	width: 100%;
+	text-align: center;
 }
 
 .box-content, .post {
