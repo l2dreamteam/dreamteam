@@ -807,7 +807,7 @@ div.login fieldset label {
 	text-align: center;
 }
 
-.box-content, .post {
+.box-content.login {
 	padding-top: 1em;
 }
     
