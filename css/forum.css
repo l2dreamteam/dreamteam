@@ -850,6 +850,14 @@ ul.privmsg {
 	width: 100%;
 }
 
+li.popupmenu-item img {
+	width: 20px;
+}
+
+.field_editable li {
+	background-color: transparent !important;
+}
+
 /* ======================= PROFILE STYLING ======================= */
 
 .explain {
@@ -894,7 +902,7 @@ dl.avatar-dl {
 }
 
 input.inputbox {
-	width: 50% !important;
+	width: 60% !important;
 	background-color: #1d1d1d;
 	border: 1px solid #111;
 	height: 20px;
@@ -905,6 +913,11 @@ input.inputbox {
 
 input, textarea, select, a { 
 	outline: none; 
+}
+
+textarea {
+	width: 60%;
+	padding: 2px;
 }
 
 .inner p {
