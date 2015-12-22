@@ -721,6 +721,10 @@ fieldset.stats-field.genmed li {
 	border-bottom: 1px solid #444;
 }
 
+
+#profile-advanced-details .message-footer li {
+	display: table-row-group;
+}
 .inner {
 	background-color: #222;
 	margin-top: 2px;
@@ -754,7 +758,7 @@ tbody.statused .row2 {
 }
 
 .box-content.profile li {
-	background-color: #333;
+	background-color: #111;
 	padding: 8px;
 }
 
