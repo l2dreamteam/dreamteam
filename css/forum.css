@@ -1077,6 +1077,7 @@ a.calarrow {
 
 .calday span {
 	color: #C74A28;
+	font-weight: 100 !important;
 }
 
 /* ======================= FOOTER ======================= */
