@@ -390,6 +390,11 @@ label img {
 	width: 10px;
 }
 
+.avatar {
+	height: 50px;
+	overflow: hidden;
+}
+
 .postprofile-head .avatar img {
 	width: auto;
 	height: 55px;
@@ -724,6 +729,15 @@ fieldset.stats-field.genmed li {
 
 #profile-advanced-details .message-footer li {
 	display: table-row-group;
+	text-align: left;
+}
+
+.module ul {
+	padding-left: 0;
+}
+
+#profile-advanced-right {
+	width: 290px;
 }
 .inner {
 	background-color: #222;
@@ -767,6 +781,17 @@ tbody.statused .row2 {
 	border: 0;
 
 }
+
+.ipbform fieldset legend {
+	font-weight: 200;
+	font-size: 14px;
+	color: ;
+}
+
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    float: none;
 
 /* ========= ULs & LIs ========== */
 
