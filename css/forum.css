@@ -232,10 +232,6 @@ p.italic {
     color: #555;
  }
 
- table.ipbtable td span img {
- 	display: none;
- }
-
 /* ======================= MENU & TOOL BAR ======================= */
 
 a.mainmenu[href="/search"],
