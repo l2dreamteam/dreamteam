@@ -830,12 +830,20 @@ ul.privmsg li a {
 
 ul.privmsg li {
 	margin-right: 0;
-
+	float: none;
+	display: inline-block;
 }
 
 ul.privmsg {
 	float: none;
 	margin-bottom: 0;
+	margin-left: 0;
+	text-align: center;
+}
+
+ul.privmsg.clearfix {
+	background-color: #0d0d0d;
+
 }
 
 .statused .row2 strong {
