@@ -139,7 +139,7 @@ select#profile_field_4_-12_2 {
 h3.subtitle {
 	text-align: center;
 	font-weight:100;
-	padding: 25px 0 0 0;
+	padding: 8px 0;
 	color: #555;
 }
 
@@ -712,6 +712,15 @@ fieldset.stats-field.genmed li {
 	width: 20px;
 }
 
+#profile-advanced-details dl {
+	padding: 6px 7px 5px 10px;
+}
+
+#profile-advanced-details div.separator {
+	padding-top: 0;
+	border-bottom: 1px solid #444;
+}
+
 .inner {
 	background-color: #222;
 	margin-top: 2px;
@@ -789,6 +798,7 @@ ul.privmsg li {
 
 ul.privmsg {
 	float: none;
+	margin-bottom: 0;
 }
 
 .statused .row2 strong {
@@ -936,6 +946,11 @@ dl.faq.row1:first-child {
 .postprofile-head .popmenubutton-new-out {
 	margin: 0;
 	padding: 0;
+}
+
+#profile-advanced-layout #new-message {
+	margin-top: 0;
+	padding-top: 0;
 }
 /* ======================= FOOTER ======================= */
 
