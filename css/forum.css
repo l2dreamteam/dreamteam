@@ -1044,9 +1044,9 @@ dl.faq.row1:first-child {
 /* ======================= CALENDAR ======================= */
 
 .ipbtable.calendar .calday {
-	font-weight: 100;
-	text-align: center;
-	color: #fff;
+	font-weight: 100 !important;
+	text-align: center !important;
+	color: #fff !important;
 }
 
 .ipbtable.calendar ul {
@@ -1057,6 +1057,10 @@ dl.faq.row1:first-child {
 	background-color: #111;
 
 }
+
+table.ipbtable.calendar th {
+	font-weight: 100;
+} 
 
 /* ======================= FOOTER ======================= */
 
