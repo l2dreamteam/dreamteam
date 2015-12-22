@@ -891,7 +891,6 @@ li.popupmenu-item img {
 }
 
 dd.current-img {
-	float: right;
 	width: 28%;
 	margin: 0 auto !important;
 	text-align: center;
@@ -914,13 +913,11 @@ fieldset.submit-buttons {
 }
 
 dt.avatar-label {
-	border-bottom: 1px solid #444;
 	margin-bottom: 7px;
 }
 
 dl.avatar-dl {
-	float: right;
-	width: 70%;
+	width: 100%;
 	padding-top: 10px;
 }
 
@@ -1020,6 +1017,10 @@ dl.faq.row1:first-child {
 	background-color: transparent;
 }
 
+.borderwrapm, .polls {
+	margin: 0;
+}
+
 .postprofile-head .popmenubutton-new-out {
 	margin: 0;
 	padding: 0;
@@ -1028,6 +1029,11 @@ dl.faq.row1:first-child {
 #profile-advanced-layout #new-message {
 	margin-top: 0;
 	padding-top: 0;
+}
+
+.postprofile-head.post-header {
+	border-bottom: none !important;
+	margin-bottom: 1.5em;
 }
 /* ======================= FOOTER ======================= */
 
@@ -1086,5 +1092,13 @@ footer {
 @media screen and (min-width: 580px) {
 	.footer p {
 	  width: 70%;
+	}
+
+	dd.current-img {
+		float: right;
+	}
+	dl.avatar-dl {
+		float: right;
+		width: 70%;
 	}
 }
