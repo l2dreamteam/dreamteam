@@ -147,6 +147,10 @@ h3.subtitle {
 	text-align: center;
 }
 
+.captcha-img label img {
+	width: 100% !important;
+}
+
 /* ==== Drop down menus ==== */
 
 .popmenubutton {
