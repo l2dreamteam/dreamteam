@@ -1054,13 +1054,18 @@ dl.faq.row1:first-child {
 }
 
 .ipbtable.calendar .celldate:hover {
-	background-color: #111;
+	background-color: #F5A71B;
 
 }
 
 table.ipbtable.calendar th {
 	font-weight: 100;
+	color: #F58D14;
 } 
+
+a.calarrow {
+	font-weight: 100;
+}
 
 /* ======================= FOOTER ======================= */
 
