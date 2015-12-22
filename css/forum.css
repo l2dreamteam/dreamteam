@@ -1041,12 +1041,19 @@ dl.faq.row1:first-child {
 	margin-bottom: 1.5em;
 }
 
+table.ipbtable tfoot td {
+	background-color: transparent !important;
+	height: 0 !important;
+}
+
 /* ======================= CALENDAR ======================= */
 
 .ipbtable.calendar .calday {
 	font-weight: 100 !important;
 	text-align: center !important;
 	color: #fff !important;
+	font-size: 10px !important;
+	border-bottom: 1px solid #222;
 }
 
 .ipbtable.calendar ul {
@@ -1055,7 +1062,7 @@ dl.faq.row1:first-child {
 
 .ipbtable.calendar .celldate:hover {
 	background-color: #222;
-
+	border: 1px solid #222;
 }
 
 table.ipbtable.calendar th {
@@ -1078,6 +1085,16 @@ a.calarrow {
 .calday span {
 	color: #C74A28;
 	font-weight: 100 !important;
+}
+
+.ipbtable.calendar .view-week {
+	display: none;
+}
+
+fieldset.formbuttonrow.center {
+	height: 0;
+	background-color: #000;
+	margin: 0px -1px -1px;
 }
 
 /* ======================= FOOTER ======================= */
