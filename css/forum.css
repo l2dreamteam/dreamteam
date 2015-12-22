@@ -560,11 +560,16 @@ table.ipbtable td.row1 img {
 
 */
 
+
+
 td.row1.centered img,
 span.status.clearfix img {
-	width: 30px;
 	padding: 5px;
 	margin-right: -13px;
+}
+
+span.status.clearfix img {
+	width: 30px;
 }
 
 p.forum-desc {
