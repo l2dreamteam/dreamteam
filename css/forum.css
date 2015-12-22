@@ -518,6 +518,10 @@ input.inputbox.tiny {
 
 /* ======================= TABLES ======================= */
 
+#ipbwrapper div#userlinks p {
+	display: none;
+}
+
 .panel {
 	background-color: #222;
 }
@@ -542,6 +546,10 @@ table.ipbtable td {
 
 table.ipbtable td img {
 	width: 20px;
+}
+
+table.ipbtable td .row1 img {
+	width: 25px;
 }
 
 td.row1.centered img,
