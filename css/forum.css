@@ -793,11 +793,21 @@ fieldset.formcolumn1.connexion {
     display: block;
     text-align: center;
     float: none;
+    width: none;
 }
 
 .columned fieldset.formcolumn2 {
 	float: none;
-	width: 100%;
+	width: 94%;
+	text-align: center;
+}
+
+div.login fieldset label {
+	width: 6em;
+}
+
+.box-content, .post {
+	padding-top: 1em;
 }
     
 
@@ -844,6 +854,10 @@ ul.privmsg {
 ul.privmsg.clearfix {
 	background-color: #0d0d0d;
 
+}
+
+li.activetab {
+	color: #c13a56 !important;
 }
 
 .statused .row2 strong {
