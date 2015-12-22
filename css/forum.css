@@ -598,7 +598,7 @@ table.ipbtable th {
 	border: 0;
 	background-image: none;
 	background-color: #222;
-	padding: 5px 0;
+	padding: 0;
 }
 
 table.ipbtable td.icon {
@@ -834,6 +834,10 @@ div.login fieldset label {
 
 #fa_search, #fa_share {
 display: none !important;
+}
+
+form#qjump {
+	display: none;
 }
 
 .ul-icons {
