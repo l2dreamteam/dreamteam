@@ -668,6 +668,11 @@ strong.pagination {
 
 span.topic-paging {
 	display: block;
+	padding-left: 10px;
+}
+
+div.pagination b {
+	background-color: #F5B233 !important;
 }
 
 .text-left {
