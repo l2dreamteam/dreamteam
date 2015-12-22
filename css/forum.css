@@ -408,8 +408,7 @@ label img {
 }
 
 td.row2 img {
-	width: 20px;
-	padding: 3px;
+	padding: 5px;
 }
 
 .box-content.profile fieldset.formbuttonrow.center {
@@ -835,6 +834,11 @@ div.login fieldset label {
 
 .box-content.login {
 	padding-top: 1em;
+}
+
+table.search td {
+	text-align: left;
+
 }
     
 
