@@ -13,7 +13,11 @@ body, .navbar {
 
 a:link {
 	text-decoration: none !important;
-	color: #999;
+	color: #888;
+}
+
+a:hover {
+	color: #fff !important;
 }
 
 .linklist ul li a {
